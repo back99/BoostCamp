@@ -17,7 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:backgroundTint="@color/colorAccent"
             android:inputType="textPersonName"
+            android:privateImeOptions="defaultInputmode=korean"
             android:text="엑스맨" />
 
         <Button
@@ -25,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="검색" />
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
