@@ -20,7 +20,7 @@
             android:ems="10"
             android:hint="영화 제목"
             android:inputType="textPersonName"
-            android:privateImeOptions="defaultInputmode=korean" />
+            />
 
         <Button
             android:id="@+id/button"
